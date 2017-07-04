@@ -1,5 +1,6 @@
 # Gems
 require 'bundler/setup'
+::RBNACL_LIBSODIUM_GEM_LIB_PATH = "D:/libsodium.dll"
 require 'discordrb'
 require 'yaml'
 
