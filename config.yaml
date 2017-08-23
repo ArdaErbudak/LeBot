@@ -1,0 +1,15 @@
+---
+# Discord API client ID
+client_id: 331129462856876053
+
+# Discord API client token
+token: MzMxMTI5NDYyODU2ODc2MDUz.DDrEGw.0J65aHY7UwiZM_AB_SVYWBCDrYg
+
+# Command prefix
+prefix: '..'
+
+# ID of bot owner
+owner: 269403726735867904
+
+# game the bot is playing
+game: Arda ile
