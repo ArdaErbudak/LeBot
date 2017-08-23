@@ -3,7 +3,7 @@ module Bot
     # This event is processed each time the bot succesfully connects to discord.
     module Gitgud
       extend Discordrb::EventContainer
-      message(from: ".Arda Erbudak" ,in:"#bottest", content:"gitgud") do |event|
+      message(content:"gitgud") do |event|
         channel = event.user.voice_channel
         server = event.user.server.id
         sleep(0.5)
