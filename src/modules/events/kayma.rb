@@ -25,7 +25,7 @@ module Bot
   module DiscordEvents
     module Kayma
       extend Discordrb::EventContainer
-      message(content: "kayma", from: ".Arda Erbudak", in: "#bottest") do |event|
+      message(content: "kayma") do |event|
         sleep(0.5)
         event.send "https://i.hizliresim.com/Prn125.png"
         event.voice.play_file('data/kayma.mp3')
